@@ -3,7 +3,6 @@ applications:
     memory: 64M
     instances: 1
     host: gocf
-    domain: cfapps.io
     path: .
     buildpack: git://github.com/hmalphettes/heroku-buildpack-go.git
     env:
